@@ -197,6 +197,7 @@ public class Main extends Application {
         }
     }
 
+    // this part looks pointless
     private void updateScore() {
         if (collision) {
             collisionText.setText("Collision");
