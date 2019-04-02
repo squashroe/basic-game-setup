@@ -198,6 +198,7 @@ public class Main extends Application {
     }
 
     // this part looks pointless
+    // unless you have points!
     private void updateScore() {
         if (collision) {
             collisionText.setText("Collision");
